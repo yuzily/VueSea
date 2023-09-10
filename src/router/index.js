@@ -17,8 +17,8 @@ import ExploreAnimal from '../pages/ExploreAnimal.vue'
 
 const router = new VueRouter({
     // props:["showvue"],
-    mode: 'history',
-    // mode: 'hash',
+    // mode: 'history',
+    mode: 'hash',
     routes: [
         {
             path: "/opentime",
